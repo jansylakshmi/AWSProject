@@ -37,3 +37,7 @@ A production-ready, highly available, and cost‑optimized e-commerce applicatio
 ## Outcome
 
 Delivered a secure, scalable, and fully monitored e-commerce cloud architecture suitable for production workloads.
+
+
+<img width="953" height="776" alt="image" src="https://github.com/user-attachments/assets/26a9d0e5-1f9e-4e79-9e33-af5127c36aba" />
+
