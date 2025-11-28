@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple E-Commerce App</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .product { border: 1px solid #ccc; padding: 15px; width: 200px; margin-bottom: 15px; }
+        .cart { margin-top: 30px; border: 1px solid black; padding: 15px; width: 300px; }
+        button { padding: 5px 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Simple E-Commerce Web App</h2>
+
+    <div id="products"></div>
+
+    <div class="cart">
+        <h3>Cart</h3>
+        <p id="cart-items">No items yet</p>
+        <h4>Total: ₹<span id="total">0</span></h4>
+    </div>
+
+    <script>
+        const products = [
+            { id: 1, name: "Laptop", price: 45000 },
+            { id: 2, name: "Mobile", price: 18000 },
+            { id: 3, name: "Headphones", price: 1500 }
+        ];
+
+        let cart = [];
+        
+        function loadProducts() {
+            let container = document.getElementById("products");
+            products.forEach(p => {
+                container.innerHTML += `
+                    <div class="product">
+                        <h4>${p.name}</h4>
+                        <p>Price: ₹${p.price}</p>
+                        <button onclick="addToCart(${p.id})">Add to Cart</button>
+                    </div>
+                `;
+            });
+        }
+
+        function addToCart(id) {
+            const product = products.find(p => p.id === id);
+            cart.push(product);
+            updateCart();
+        }
+
+        function updateCart() {
+            let list = cart.map(item => item.name + " - ₹" + item.price).join("<br>");
+            document.getElementById("cart-items").innerHTML = list || "No items yet";
+
+            let total = cart.reduce((sum, item) => sum + item.price, 0);
+            document.getElementById("total").innerText = total;
+        }
+
+        loadProducts();
+    </script>
+
+</body>
+</html>
