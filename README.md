@@ -1,43 +1,100 @@
-# Scalable & Secure E-Commerce Web Application on AWS
+<div align="center">
 
-## Overview
+<h1 style="color:#4A90E2;">👋 Hi, I'm <strong>Jhansy Lakshmi</strong></h1>
+<h3>🚀 DevOps Engineer | AWS Cloud | Linux | CI/CD | Automation</h3>
 
-A production-ready, highly available, and cost‑optimized e-commerce application deployed on AWS using core cloud services and best practices.
+</div>
 
-## Architecture Summary
+---
 
-* **VPC** with public subnets (ALB) and private subnets (EC2, RDS)
-* **Application Load Balancer** for traffic distribution
-* **EC2 Auto Scaling Group** for high availability
-* **RDS (MySQL/PostgreSQL)** for secure backend database
-* **S3** for static files and product images
-* **IAM** with least‑privilege roles (EC2, S3, CloudWatch, SSM)
-* **Secrets Manager** for DB credentials
-* **SQS** for asynchronous order processing
-* **SNS** for application/health notifications
-* **CloudWatch** for logs, metrics, alarms
-* **CloudTrail** for full API auditing and compliance
-* **Systems Manager (Session Manager)** for passwordless EC2 access
-* **AWS Budgets** for cost alerts
+## 🌟 About Me
 
-## Responsibilities
+<p>
+I’m a passionate <strong>DevOps & Cloud Engineer</strong> who enjoys building secure, scalable, and automated cloud infrastructures.  
+Experienced in AWS, Linux, CI/CD, and container orchestration.  
+I love solving problems, optimizing systems, and learning new technologies.
+</p>
 
-* Built VPC networking (subnets, IGW, NAT, route tables)
-* Configured EC2 instances and attached IAM roles
-* Deployed Auto Scaling with CPU‑based policies
-* Launched ALB & target groups for load distribution
-* Set up RDS in private subnets and secured access via Secrets Manager
-* Configured S3 bucket (versioning, bucket policy, encryption)
-* Built CloudWatch alarms integrated with SNS
-* Enabled CloudTrail logging into secured S3
-* Implemented SQS queue for order processing workflows
-* Used SSM for secure EC2 access without SSH keys
-* Applied cost optimization (Auto Scaling + Budgets)
+---
 
-## Outcome
+## 🛠️ Skills & Technologies
 
-Delivered a secure, scalable, and fully monitored e-commerce cloud architecture suitable for production workloads.
+### ☁️ Cloud & Infrastructure
 
+<ul>
+  <li>AWS (EC2, VPC, S3, IAM, CloudWatch, CloudTrail, ECS)</li>
+  <li>Linux (Ubuntu, Amazon Linux, CentOS)</li>
+  <li>Networking (Subnets, Routing, NAT, Security Groups)</li>
+</ul>
 
-<img width="953" height="776" alt="image" src="https://github.com/user-attachments/assets/26a9d0e5-1f9e-4e79-9e33-af5127c36aba" />
+### ⚙️ DevOps & Automation
 
+<ul>
+  <li>Jenkins, Git, GitHub Actions</li>
+  <li>Ansible</li>
+  <li>Terraform</li>
+</ul>
+
+### 📦 Containers & Orchestration
+
+<ul>
+  <li>Docker</li>
+  <li>Kubernetes</li>
+</ul>
+
+### 🖥️ Scripting & Programming
+
+<ul>
+  <li>Shell Scripting</li>
+  <li>Python</li>
+</ul>
+
+---
+
+## 📘 Featured Projects
+
+### 🔹 Scalable E-Commerce Application on AWS
+
+<ul>
+  <li>Multi-tier VPC with secure public/private subnets</li>
+  <li>Auto Scaling + ALB for high availability</li>
+  <li>S3 storage with lifecycle policies</li>
+  <li>CloudWatch alarms + SNS notifications</li>
+</ul>
+
+### 🔹 Event-Driven Log Monitoring System
+
+<ul>
+  <li>CloudWatch Logs + Metric Filters</li>
+  <li>SNS alerts for critical log patterns</li>
+  <li>Real-time logging and monitoring</li>
+</ul>
+
+---
+
+## 🎓 Certifications
+
+<ul>
+  <li><a href="https://drive.google.com/file/d/1HOT-exXvEWGVIRZlMANM6PeTU6qe_Bme/view">AWS & DevOps Certificate 1</a></li>
+  <li><a href="https://drive.google.com/file/d/1jsscM93x-88ncMimisPZteH5xEAbWsGa/view">AWS & DevOps Certificate 2</a></li>
+</ul>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jhansy-lakshmi&show_icons=true&theme=tokyonight" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jhansy-lakshmi&layout=compact&theme=tokyonight" height="170" />
+</div>
+
+---
+
+## 📫 Contact
+
+<p><strong>Email:</strong> jansylakshmicglr@gmail.com<br>
+<strong>Location:</strong> Bangalore, India</p>
+
+<div align="center">
+  ⭐ <em>Thank you for visiting my profile! Feel free to connect!</em> ⭐
+</div>
